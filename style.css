@@ -10,13 +10,13 @@ h4{}
 /* gobal css ends here */
 /* nav section starts here */
 .naviBar{}
-.logo{}
+.logo{width:30%;}
 .logo a{}
-.logo a :hover{}
+.logo a :hover{filter: invert();}
 .navMenu{}
-.navMenu ul{}
-.navMenu ul li{}
-.navMenu ul li a{}
+.navMenu ul{text-align: center;}
+.navMenu ul li{display: inline-block; list-style: none;}
+.navMenu ul li a{ text-decoration: none;}
 .navMenu ul li a:hover{}
 .freeLogin{}
 .freeLogin a{}
@@ -30,7 +30,7 @@ h4{}
 .promoText h1{}
 .promoText p{}
 .promoButtons {}
-.promoButtons a{}
+.promoButtons a{ border-radius: 10px;}
 /* promodivsection ends here */
 /* trustedComp section starts here */
 .trustedComp{}
@@ -42,7 +42,7 @@ h4{}
 /* appFetures starts here  */
 .appFetures{}
 .appFitBox {}
-.fetText{}
+.fetText{ text-align: left;}
 .fetText h1{}
 .fetText p{}
 .feturesBoxes{}
@@ -73,15 +73,15 @@ h4{}
 /* credit section starts here */
 .credit{}
 .creditBox {}
-.creditText{}
-.creditText h1{}
+.creditText{text-align: left;}
+.creditText h1{ }
 .creditText p{}
 .creditText a{}
 
 /* credit section ends here */
 /* importance section starts here */
 .importanceBox{}
-.importenceHeading{}
+.importenceHeading{text-align: center;}
 .importenceHeading h1{}
 .importenceHeading p{}
 .importanceBoxes{}
@@ -129,7 +129,7 @@ h4{}
 /* cliantReview starts here */
 .cliantReview{}
 .cliantRevBox{}
-.cliantRevTxt{}
+.cliantRevTxt{text-align: left;}
 .cliantRevTxt h1{}
 .cliantRevTxt p{}
 .cliantRevTxt h4{}
@@ -148,10 +148,10 @@ h4{}
 .faqBox h1{}
 .faqBox p{}
 .quesboxex{}
-.questionbox1{}
+.questionbox1{text-align: left;}
 .questionbox h4{}
 .questionbox p{}
-.questionbox2{}
+.questionbox2{text-align: left;}
 .questionbox2 p{}
 .questionbox2 a{}
 
@@ -160,7 +160,7 @@ h4{}
 /* downloadApp section starts here */
 
 .downloadApp{}
-.downloaderBOx{}
+.downloaderBOx{text-align: left;}
 .downloadedHeading h1{}
 .downloadedHeading p{}
 .downloadLink{}
@@ -169,7 +169,7 @@ h4{}
 /* footer section starts here */
 
 .footer{}
-.footerBOx{}
+.footerBOx{text-align: center;}
 .footerLogo{}
 .footerLogo a{}
 .footerMiniNav{}
