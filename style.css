@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0; box-sizing: border-box;}
-.container{ width: 1600px;margin:0 auto;}
+.container{ width: 1600px;margin:0 auto;height: 6534px;}
 .structure{ width: 1180px; margin: 0 auto;}
 .fix{overflow: hidden;}
 .fl{float:left;}
@@ -7,6 +7,10 @@
 .clr{clear: both;}
 h1{}
 h4{}
+p{}
+h4{}
+a{text-decoration: none; color :#242f51}
+li{list-style: none;}
 /* gobal css ends here */
 /* nav section starts here */
 .naviBar{}
@@ -20,10 +24,10 @@ h4{}
 .navMenu ul li a:hover{}
 .freeLogin{}
 .freeLogin a{}
-.freeLogin a:hover{}
+.freeLogin a:hover{background-color: #e8631c;transition: all .3s ease-in;cursor: pointer;}
 /* nav section ends here */
 /* promodivsection starts here */
-.promodiv{}
+.promodiv{background-image: url('images/mobileBgimage.png');background-size: cover;background-repeat: no-repeat;}
 .promoBox {}
 .promoText{}
 .promoText a{}
@@ -40,7 +44,7 @@ h4{}
 .tCompImg a{}
 /* trustedComp section ends here */
 /* appFetures starts here  */
-.appFetures{}
+.appFetures{background-image: url('images/2ndmegaBg.png');background-size: cover;background-repeat: no-repeat;}
 .appFitBox {}
 .fetText{ text-align: left;}
 .fetText h1{}
@@ -71,7 +75,7 @@ h4{}
 .delPromoBOxes p{}
 /* deleveryAdvetise section ends here */
 /* credit section starts here */
-.credit{}
+.credit{background-image: url('images/credits\ background.png');background-size: cover;background-repeat: no-repeat;}
 .creditBox {}
 .creditText{text-align: left;}
 .creditText h1{ }
@@ -92,7 +96,7 @@ h4{}
 
 /* importance section ends here */
 /* planning section stars here */
-.planning{}
+.planning{background-image: url('images/2ndmegaBg.png');background-size: cover;background-repeat: no-repeat;}
 .planningBox {}
 .planningHeading{}
 .planningHeading h1{}
@@ -122,12 +126,12 @@ h4{}
 .cartBdy ul{}
 .cartBdy ul li{}
 .cartBdy ul li a{}
-.cartBdy ul li a:hover{}
+.cartBdy ul li a:hover{background-color: #e8631c;transition: all .3s ease-in;cursor: pointer;}
 .cartBdy a{}
 .cartBdy a:hover{}
 /* charge ssection ends here */
 /* cliantReview starts here */
-.cliantReview{}
+.cliantReview{background-image: url('images/Cliant\ satisfaction\ Area\ Bg.png');background-size: cover;background-repeat: no-repeat;}
 .cliantRevBox{}
 .cliantRevTxt{text-align: left;}
 .cliantRevTxt h1{}
@@ -176,7 +180,7 @@ h4{}
 .footerMiniNav ul{}
 .footerMiniNav ul li{}
 .footerMiniNav ul li a{}
-.footerMiniNav ul li a:hover{}
+.footerMiniNav ul li a:hover{background-color: #e8631c;transition: all .3s ease-in;cursor: pointer;}
 .footerSocial a{}
 .cpyright{}
 .cpyright a{}
