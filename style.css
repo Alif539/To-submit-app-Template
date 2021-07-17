@@ -13,44 +13,44 @@ a{text-decoration: none; color :#242f51}
 li{list-style: none;}
 /* gobal css ends here */
 /* nav section starts here */
-.naviBar{}
+.naviBar{ padding: 20px 0px;}
 .logo{width:30%;}
 .logo a{}
 .logo a :hover{filter: invert();}
-.navMenu{}
-.navMenu ul{text-align: center;}
+.navMenu{margin-left: 225px;}
+.navMenu ul{}
 .navMenu ul li{display: inline-block; list-style: none;}
-.navMenu ul li a{ text-decoration: none;}
-.navMenu ul li a:hover{}
+.navMenu ul li a{ text-decoration: none;margin:0px 3px; border-radius: 5px;padding:3px;margin-left: 10px;}
+.navMenu ul li a:hover{background-color: #e8631c;transition: all .3s ease-in;cursor: pointer;}
 .freeLogin{}
-.freeLogin a{}
+.freeLogin a{padding: 5px;border-radius: 8px;background-color :#242f51;color: white;}
 .freeLogin a:hover{background-color: #e8631c;transition: all .3s ease-in;cursor: pointer;}
 /* nav section ends here */
 /* promodivsection starts here */
 .promodiv{background-image: url('images/mobileBgimage.png');background-size: cover;background-repeat: no-repeat;}
-.promoBox {}
-.promoText{}
-.promoText a{}
-.promoText h1{}
-.promoText p{}
+.promoBox {    padding: 255px 20px 237px 180px;}
+.promoText{    width: 38%;line-height: 47px;}
+.promoText a{background-color: #e2eaed;padding: 4px;border-radius: 25px;padding: 12px;text-decoration: none;}
+.promoText h1{    font-size: 47px;color: #242f51;}
+.promoText p{    font-size: 29px; color: black;}
 .promoButtons {}
-.promoButtons a{ border-radius: 10px;}
+.promoButtons a{padding: 14px;border-radius: 23px;background-color :#242f51;color: white;text-decoration: none;    margin: 0px 6px; }
 /* promodivsection ends here */
 /* trustedComp section starts here */
-.trustedComp{}
-.tCompbox{}
-.tCompbox h4{}
-.tCompImg{}
-.tCompImg a{}
+.trustedComp{padding: 255px 0px ;}
+.tCompbox{text-align: center;line-height: 100px;}
+.tCompbox h4{font-size: 25px;}
+.tCompImg{width: 80%;margin:0 auto;}
+.tCompImg a{ margin: 0px 26px;}
 /* trustedComp section ends here */
 /* appFetures starts here  */
-.appFetures{background-image: url('images/2ndmegaBg.png');background-size: cover;background-repeat: no-repeat;}
-.appFitBox {}
+.appFetures{background-image: url('images/2ndmegaBg.png');background-size: cover;background-repeat: no-repeat;padding: 200px 63px 200px 713px;}
+.appFitBox {width:50%;}
 .fetText{ text-align: left;}
 .fetText h1{}
 .fetText p{}
 .feturesBoxes{}
-.fetVisual {}
+.fetVisual {    width: 210%;}
 .visualImg {}
 .visualImg a{}
 .visualText {}
@@ -59,28 +59,28 @@ li{list-style: none;}
 /* appFetures ends here  */
 /* smartJps starts here */
 
-.smartJps{}
+.smartJps {padding: 200px 0px;}
 .smartJpstext{}
-.onejps{}
-.onejps h1{}
-.twojps{}
-.twojps p{}
+.onejps{width: 45%;}
+.onejps h1{font-size: 50px;}
+.twojps{width: 45%;}
+.twojps p{font-size: 20px;}
 /* smartJps ends here */
 /* deleveryAdvetise section starts here */
 .deleveryAdvetise{}
-.deleveryAddBOx {}
-.delPromoBOxes{}
+.deleveryAddBOx {text-align: center;}
+.delPromoBOxes{width: 30%;margin-left: 1.5%;margin-right: 1.5%;}
 .delPromoBOxes a{}
 .delPromoBOxes h4{}
 .delPromoBOxes p{}
 /* deleveryAdvetise section ends here */
 /* credit section starts here */
-.credit{background-image: url('images/credits\ background.png');background-size: cover;background-repeat: no-repeat;}
+.credit{background-image: url('images/credits\ background.png');background-size: cover;background-repeat: no-repeat;padding: 242px 83px 170px 914px;}
 .creditBox {}
-.creditText{text-align: left;}
+.creditText{text-align: left;width: 30%;}
 .creditText h1{ }
-.creditText p{}
-.creditText a{}
+.creditText p{    margin-bottom: 28px;}
+.creditText a{background-color: #242f51;color: white;border-radius: 25px; padding: 18px 33px;text-decoration: none;}
 
 /* credit section ends here */
 /* importance section starts here */
@@ -88,41 +88,43 @@ li{list-style: none;}
 .importenceHeading{text-align: center;}
 .importenceHeading h1{}
 .importenceHeading p{}
-.importanceBoxes{}
-.importanceMiniBox {}
+.importanceBoxes{text-align: center;}
+.importanceMiniBox {width: 30%;margin-left: 1.5%;margin-right: 1.5%;margin-top: 50px;}
 .importanceMiniBox a{}
 .importanceMiniBox h4{}
 .importanceMiniBox p{}
 
 /* importance section ends here */
 /* planning section stars here */
-.planning{background-image: url('images/2ndmegaBg.png');background-size: cover;background-repeat: no-repeat;}
+.planning{background-image: url('images/2ndmegaBg.png');background-size: cover;background-repeat: no-repeat;padding: 242px 83px 170px 50px;}
 .planningBox {}
-.planningHeading{}
+.spbtnbx{padding: 20px;margin-left: 286px;}
+.spbtn{background-color: #242f51;color: white;border-radius: 25px; padding: 18px 33px;text-decoration: none;}
+.planningHeading{text-align: center;}
 .planningHeading h1{}
 .planningHeading p{}
-.planningBoxes{}
-.planningMiniBox{}
+.planningBoxes{width: 50%;text-align: center;margin: 50px auto;}
+.planningMiniBox{width: 45%;margin-left: 2.5%;margin-right: 2.5%;text-align: left;}
 .planningMiniBox a {}
 .planningMiniBox h4 {}
 .planningMiniBox p {}
 
 /* planning section ends here */
 /* charges section starts here */
-.charges{}
-.chargesBox{}
+.charges{padding: 242px 83px 170px 50px;}
+.chargesBox{text-align: center;}
 .chargesHeading{}
 .chargesHeading h1{}
 .chargesHeading p{}
 .oneToggleButtons{}
 .oneToggleButtons a{}
 .priceCarts {}
-.priceMinicart {}
-.carthead{}
+.priceMinicart {width: 45%;margin:0 2.5%}
+.carthead{background-color: cornsilk;}
 .carthead h1{}
 .carthead h4{}
 .carthead p{}
-.cartBdy{}
+.cartBdy{background-color: crimson;}
 .cartBdy ul{}
 .cartBdy ul li{}
 .cartBdy ul li a{}
@@ -131,8 +133,8 @@ li{list-style: none;}
 .cartBdy a:hover{}
 /* charge ssection ends here */
 /* cliantReview starts here */
-.cliantReview{background-image: url('images/Cliant\ satisfaction\ Area\ Bg.png');background-size: cover;background-repeat: no-repeat;}
-.cliantRevBox{}
+.cliantReview{background-image: url('images/Cliant\ satisfaction\ Area\ Bg.png');background-size: cover;background-repeat: no-repeat;padding: 254px 17px 210px 470px;}
+.cliantRevBox{    width: 30%;}
 .cliantRevTxt{text-align: left;}
 .cliantRevTxt h1{}
 .cliantRevTxt p{}
@@ -147,8 +149,8 @@ li{list-style: none;}
 /* cliantReview ends here */
 
 /* faq section starts here */
-.faq{}
-.faqBox{}
+.faq{padding: 200px 200px;}
+.faqBox{text-align: center;}
 .faqBox h1{}
 .faqBox p{}
 .quesboxex{}
@@ -156,7 +158,7 @@ li{list-style: none;}
 .questionbox h4{}
 .questionbox p{}
 .questionbox2{text-align: left;}
-.questionbox2 p{}
+.questionbox2 p{padding:50px 10px;background-color:#e2eaed ;}
 .questionbox2 a{}
 
 
@@ -164,15 +166,15 @@ li{list-style: none;}
 /* downloadApp section starts here */
 
 .downloadApp{}
-.downloaderBOx{text-align: left;}
+.downloaderBOx{text-align: left; line-height: 80px;}
 .downloadedHeading h1{}
 .downloadedHeading p{}
 .downloadLink{}
-.downloadLink a{}
+.downloadLink a{margin-right: 20px;}
 /* downloadApp section ends here */
 /* footer section starts here */
 
-.footer{}
+.footer{background-color:#09142e ;padding: 100px 200px;}
 .footerBOx{text-align: center;}
 .footerLogo{}
 .footerLogo a{}
