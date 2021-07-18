@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0; box-sizing: border-box;}
-.container{ width: 1444px;margin:0 auto;}
+.container{ width: 1444px; margin:0 auto;}
 .structure{ width: 1280px; margin: 0 auto;}
 .fix{overflow: hidden;}
 .fl{float:left;}
@@ -75,8 +75,8 @@ li{list-style: none;}
 .delPromoBOxes p{}
 /* deleveryAdvetise section ends here */
 /* credit section starts here */
-.credit{background-image: url('images/credits\ background.png');background-size: cover;background-repeat: no-repeat;padding: 242px 83px 170px 914px;}
-.creditBox {}
+.credit{background-image: url('images/credits\ background.png');background-size: cover;background-repeat: no-repeat;}
+.creditBox {padding: 242px 83px 170px 914px;}
 .creditText{text-align: left;width: 30%;}
 .creditText h1{ }
 .creditText p{    margin-bottom: 28px;}
