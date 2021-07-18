@@ -76,8 +76,8 @@ li{list-style: none;}
 /* deleveryAdvetise section ends here */
 /* credit section starts here */
 .credit{background-image: url('images/credits\ background.png');background-size: cover;background-repeat: no-repeat;}
-.creditBox {padding: 242px 83px 170px 914px;}
-.creditText{text-align: left;width: 30%;}
+.creditBox {padding: 242px 83px 170px 776px;}
+.creditText{text-align: left;width: 50%;}
 .creditText h1{ }
 .creditText p{    margin-bottom: 28px;}
 .creditText a{background-color: #242f51;color: white;border-radius: 25px; padding: 18px 33px;text-decoration: none;}
